@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!--=========================== Favicon ===========================-->
+    <title>Portfolio </title>
+
+    <!--=========================== Google Fonts ======================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--=========================== Remixicons ========================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!--=========================== swiperJs CSS ======================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+
+    <!--=========================== Style CSS =========================-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--=========================== Header ============================-->
+    <header id="header" class="header">
+        <div class="nav container">
+            <a href="index.html" class="nav__brand">RA.</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-line nav__icon"></i>
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-user-line nav__icon"></i>
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-medal-line nav__icon"></i>
+                            Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-folders-line nav__icon"></i>
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-phone-line nav__icon"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <span class="theme__toggle">
+                    <i id="theme-toggle" class="ri-moon-line"></i>
+                </span>
+                <span class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-4-line"></i>
+                </span>
+            </div>
+        </div>
+    </header>
+
+
+    <!--=========================== Main ==============================-->
+    <main class="main">
+        <!--======================= Home ==============================-->
+        <section id="home" class="home">
+            <div class="d-grid home__wrapper container">
+                <div class="home__content">
+                    <h1 class="home__title">
+                        I'm <span class="home__name">Akhila</span><br>
+                        Full Stack Developer
+                    </h1>
+                    <p class="home__description">
+                        I'm Akhila I've done Bachelor's Degree in Computer Science.
+                    </p>
+                    <a href="#contact" class="btn btn--primary">
+                        <i class="ri-mail-line"></i>
+                        Hire Me
+                    </a>
+                    <div class="social">
+                        <span class="social__title"></span>
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="https://in.linkedin.com/in/rudra-akhila-986682241" class="social__link">
+                                    <i class="ri-linkedin-box-fill"></i>
+                                </a>
+                            </li>
+
+                            <li class="social__item">
+                                <a href="https://www.instagram.com/?next=%2F" class="social__link">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                            </li>
+                            
+                            <li class="social__item">
+                                <a href="https://github.com/Akhila637" class="social__link">
+                                    <i class="ri-github-fill"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="images/main-page-img.png" alt="Akhila Rudra" class="home__img">
+            </div>
+        </section>
+        <!--======================= About =============================--> 
+        <section id="about" class="about section">
+            <div class="d-grid about__wrapper container">
+                <div class="about__container">
+                    <span class="section__subtitle">About Me</span>
+                    <h2 class="section__title">Hello there! I'm Rudra Akhila, a Fullstack Web Developer.</h2>
+                    <p class="about__description">I'm a dedicated & skilled Fullstack developer with a passion for coding
+                        that has spanned. I'm driven to continuously improve my skills in this dynamic field and I'm a self-motivated and disciplined individual.
+                        I approach work with a strong sense of responsibility my goal is to deliver projects to the best of my abilities.
+                        I prioritize getting the job done efficiently my determination ensures that I overcome obstacles to meet project goals.
+                    </p>
+                    <a href="images/1-akhila resume-compressed.pdf" target="_blank" id="download-cv" class="btn btn--primary">
+                    <i class="ri-article-line"></i>Download CV</a>
+                </div>
+                <img src="images/girl-image.png" alt="Akhila Rudra" class="about__img">
+            </div>
+        </section>
+        <!--======================= Skills ============================-->
+        <section id="skills" class="skills section section-bg">
+            <div class="section__header container">
+                <span class="section__subtitle">Skills</span>
+            </div>
+            <div class="d-grid skills__wrapper container">
+                <div class="skills__content">
+                    <div class="skills__content-wrapper">
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/html-logo.png" alt="HTML Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/css-logo.png" alt="CSS Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/bootstrap-logo.png" alt="Bootstrap Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">BootStrap</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/Js-logo.png" alt="JavaScript Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">JavaScript</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/react-logo.png" alt="React Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">React.js</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/node-logo.png" alt="Node Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Node.js</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/python-logo.png" alt="Python Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Python</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/java-logo.png" alt="Java Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Java</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/c++ - logo.png" alt="Python Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">C++</h3>
+                        </div>
+
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="images/figma .png" alt="" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Figma</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--======================= Projects ==========================-->
+        <section id="projects" class="projects section">
+            <div class="section__header container">
+                <span class="section__subtitle">Projects</span>
+                <h2 class="section__title">Featured Projects</h2>
+            </div>
+            <div class="d-grid portfolio__wrapper container">
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="images/foodmunch.png" alt="foodmunch" class="portfolio__img">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Foodmunch</h3>
+                            <p class="portfolio__description">
+                                Developed a responsive food order website using HTML, CSS, and 
+                                Bootstrap, facilitating a seamless ordering experience for users on 
+                                various devices.
+                                Implemented a user-friendly interface with an extensive menu, 
+                                enabling customers to easily browse, add items to the cart, and 
+                                place their food orders hassle-free.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="portfolio__link">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="images/fizzpop.png" alt="fizzpop" class="portfolio__img">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Fizzpop</h3>
+                            <p class="portfolio__description">
+                                Developed a dynamic landing page, "Fizz Pop," utilizing HTML, CSS, 
+                                and JavaScript, to create an engaging and user-friendly interface 
+                                for online soft drink ordering.
+                                Implemented an intuitive user interface, enabling customers to 
+                                browse through available soft drink options and easily place their 
+                                orders with a streamlined checkout process
+                            </p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="portfolio__link">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="images/weatherapp.jpg" alt="weatherapp" class="portfolio__img">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Weather App</h3>
+                            <p class="portfolio__description">
+                                Developed a weather application that allows users to check 
+                                weather information for any location.
+                                Designed and implemented a user-friendly interface using HTML, 
+                                CSS, and JavaScript to display weather data.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="portfolio__link">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="images/chatbot.png" alt="chatbot" class="portfolio__img">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Chatbot</h3>
+                            <p class="portfolio__description">
+                                Created a dynamic chatbot using HTML, CSS, and JavaScript, with 
+                            the support of Bootstrap for enhanced responsiveness and styling.
+                            Implemented natural language processing capabilities in JavaScript 
+                            to enable the chatbot to understand user queries and provide 
+                            relevant responses, enhancing user interaction and engagement.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="portfolio__link">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--======================= Contact ===========================-->
+        <section id="contact" class="content section section-bg">
+            <div class="section__header container">
+                <span class="section__subtitle">Let's Talk</span>
+                <h2 class="section__title">Have a Project Idea? Feel Free to Contact</h2>
+            </div>
+            <div class="d-grid contact__wrapper container">
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <label for="" class="form__label">Name</label>
+                        <input type="text" class="form__input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="" class="form__label">Email</label>
+                        <input type="text" class="form__input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="" class="form__label">Message</label>
+                        <textarea class="form__input form__textarea" 
+                        placeholder="Tell me about your project"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">
+                        <i class="ri-send-plane-line"></i>Send Message
+                    </button>
+                </form>
+                <div class="d-grid contact__content">
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Email:</h3>
+                            <p class="contact__description">rudraakhila111@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-map-pin-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Location:</h3>
+                            <p class="contact__description">Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=========================== Footer ============================-->
+    <footer>
+        <div class="footer__copyright container">
+            <p>&copy; Copyright 2023 Akhila Code. All Rights Reserved</p> 
+        </div>  
+    </footer>
+    <a href="#" id="scrolltop" class="scrolltop">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=========================== SwiperJs ==========================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!--=========================== ScrollReveal ======================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--=========================== Script Js =========================-->
+
+    <script src="script.js"></script>
+</body>
+</html>
